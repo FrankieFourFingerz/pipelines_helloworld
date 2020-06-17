@@ -20,8 +20,6 @@ pipelines:
         configuration:
           inputResources:
             - name: myAppRepo
-          integrations:
-            - name: ArtifactoryIntegration
         execution:
           onExecute:
             # - jfrog rt docker-pull packages.rubrik.com/artifactory/docker-remote/mariadb:10.2.23 docker-remote
